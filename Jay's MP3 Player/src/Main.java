@@ -1,12 +1,10 @@
+import org.gstreamer.Gst;
 
 public class Main {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] args)
+	{
+		args=Gst.init("Jay's MP3 Player",args);
 	}
 
 }
